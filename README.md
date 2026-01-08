@@ -1,5 +1,14 @@
 # SyncBridge
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](#)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.115.6-009688)](https://fastapi.tiangolo.com/)
+[![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-2.0.36-red)](https://www.sqlalchemy.org/)
+[![CI](https://github.com/Siggmond/sync-bridge/actions/workflows/ci.yml/badge.svg)](https://github.com/Siggmond/sync-bridge/actions/workflows/ci.yml)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Made with SQL](https://img.shields.io/badge/queue-database--backed-informational)](#)
+
+
 SyncBridge is a small, backend-focused project that demonstrates how to build a reliable sync worker without hiding complexity.
 
 It models “do work in the background” as explicit jobs stored in a database:
